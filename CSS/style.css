@@ -170,6 +170,10 @@ margin-bottom: 50px;
 .main-wrapper .section {
 margin-bottom: 10px;
 }
+.gallerya{
+  margin-bottom: 30px;
+}
+
 .main-wrapper .projects-section .intro {
 margin-bottom: 30px;
 }
@@ -220,6 +224,40 @@ border-width: 1px 1px 1px 5px;
 margin-bottom: 5px;
 padding: 20px;
 }
+.main-wrapper .section:hover{
+  background-color:inherit;
+  color:red;
+  font-size: 1.1em;
+    width: 600px;
+    padding-left: 60px;
+      font-style: oblique;
+  -moz-transition: font-size 0ms linear 0s;
+    -webkit-transition: font-size 0ms linear 0s;
+    -o-transition: font-size 0ms linear 0s;
+    transition: font-size 0ms linear 0s;
+}
+.final:hover{
+  background-color:inherit;
+  color:red;
+  font-size: 0.7em;
+  width: 500px;
+  padding-left: 50px;
+    font-style: oblique;
+
+    -moz-transition: font-size 0ms linear 0s;
+    -webkit-transition: font-size 0ms linear 0s;
+    -o-transition: font-size 0ms linear 0s;
+    transition: font-size 0ms linear 0s;
+}
+.gallerya:hover{
+  background-color:inherit;
+  color:red;
+  font-style: oblique;
+  transform:scale(1.2);
+    -webkit-transform:scale(1.2); // Safari and Chrome
+
+}
+
 @media (max-width: 767.98px) {
   .sidebar-wrapper {
   position: static;
@@ -227,7 +265,7 @@ padding: 20px;
   }
   .main-wrapper {
   padding: 30px;
-  
+
   }
 
   }
