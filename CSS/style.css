@@ -19,8 +19,8 @@
 }
 
 .items:hover {
-  background-color: rgba(224, 223, 223, 0.1);
-  color: #3462e0;
+  background-color: rgb(5, 76, 109);
+  color:red;
 }
 .gallery-wrapper {
 
@@ -254,7 +254,7 @@ padding: 20px;
   color:red;
   font-style: oblique;
   transform:scale(1.2);
-    -webkit-transform:scale(1.2); // Safari and Chrome
+    -webkit-transform:scale(1.2); 
 
 }
 
